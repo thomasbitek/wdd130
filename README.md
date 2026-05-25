@@ -18,9 +18,15 @@
     </header>
     <main>
         <h1>WOKORACH THOMAS | WDD 130</h1> 
-        <P><img width="719" height="719" alt="1000250288" src="https://github.com/user-attachments/assets/5a219adf-6e63-4e67-af4b-46b573e355f7" />
+        
+        <p><img width="200" height="355" alt="profile" src="https://github.com/user-attachments/assets/c4882e89-a5d2-4d0f-9696-b3f6aa62d0c8" />
+</p>
 
-        <p> Hello! Welcome to my website! This is a simple HTML page that serves as an introduction to my work in the WDD 130 course. 
+
+
+
+        <p> Hello! Welcome to my website! This is a simple HTML page that serves as an introduction to
+            my work in the WDD 130 course. 
             Here, you can find information about my projects, skills, and contact details. 
             Feel free to explore and learn more about me!</p>
         <p> My name is Wokorach Thomas AKA Thomas Bitek Bitmoi and I'm from Gulu, Uganda 
@@ -28,6 +34,12 @@
             I enjoy technology, coding, graphics design, and web development  as well as learning new skills
             I also enjoy helping others and exploring creative digital projects.</p>
     </main>
+
+
+
+
+
+    
     <footer>
         <p>©2026 ⌚ Wokorach Thomas ⌚ Gulu, Uganda.   All rights reserved®.</p>
     </footer>
