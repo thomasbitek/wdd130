@@ -17,9 +17,7 @@
         </nav>
     </header>
     <main>
-        <h1>WOKORACH THOMAS | WDD 130</h1>
-        <img src="images/<img width="200" height="355" alt="profile" src="https://github.com/user-attachments/assets/6a9d3184-66b1-4736-9401-958bf8415336" />
-" alt="Hello! My Name is Wokorach Thomas" style="width:200px;">
+        <h1>WOKORACH THOMAS | WDD 130</h1>     
         <p> Welcome to my website! This is a simple HTML page that serves as an introduction to my work in the WDD 130 course. 
             Here, you can find information about my projects, skills, and contact details. 
             Feel free to explore and learn more about me!</p>
