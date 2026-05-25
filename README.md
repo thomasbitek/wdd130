@@ -18,10 +18,8 @@
     </header>
     <main>
         <h1>WOKORACH THOMAS | WDD 130</h1> 
-        
-        <p><img width="200" height="355" alt="profile" src="https://github.com/user-attachments/assets/c4882e89-a5d2-4d0f-9696-b3f6aa62d0c8" />
+       <p><img width="200" height="355" alt="profile" src="https://github.com/user-attachments/assets/d7153c57-c4ff-40a7-893b-d2307fa8e83e" />
 </p>
-
 
 
 
