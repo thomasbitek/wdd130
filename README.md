@@ -17,8 +17,10 @@
         </nav>
     </header>
     <main>
-        <h1>WOKORACH THOMAS | WDD 130</h1>     
-        <p> Welcome to my website! This is a simple HTML page that serves as an introduction to my work in the WDD 130 course. 
+        <h1>WOKORACH THOMAS | WDD 130</h1> 
+        <P><img width="719" height="719" alt="1000250288" src="https://github.com/user-attachments/assets/5a219adf-6e63-4e67-af4b-46b573e355f7" />
+
+        <p> Hello! Welcome to my website! This is a simple HTML page that serves as an introduction to my work in the WDD 130 course. 
             Here, you can find information about my projects, skills, and contact details. 
             Feel free to explore and learn more about me!</p>
         <p> My name is Wokorach Thomas AKA Thomas Bitek Bitmoi and I'm from Gulu, Uganda 
