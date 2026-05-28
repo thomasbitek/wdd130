@@ -33,11 +33,7 @@
      I am studying Web Development (specifically Web Fundamentals) at BYU-Idaho.
      I enjoy technology, coding, graphics design, and web development  as well as learning new skills
      I also enjoy helping others and exploring creative digital projects.</p>
-
-
   
-
-
 
 
 
