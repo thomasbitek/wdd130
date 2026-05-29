@@ -22,15 +22,13 @@
    
      
    <img> <img width="200" height="355" alt="profile" src="https://github.com/user-attachments/assets/d7153c57-c4ff-40a7-893b-d2307fa8e83e" />
-
-
-
-     Hello! Welcome to my website! This is a simple HTML page that serves as an introduction to
+   
+     <p>Hello! Welcome to my website! This is a simple HTML page that serves as an introduction to
      my work in the WDD 130 course. 
      Here, you can find information about my projects, skills, and contact details. 
      Feel free to explore and learn more about me!</p>
      
-     My name is Wokorach Thomas AKA Thomas Bitek Bitmoi and I'm from Gulu, Uganda 
+     <p>My name is Wokorach Thomas AKA Thomas Bitek Bitmoi and I'm from Gulu, Uganda 
      I am studying Web Development (specifically Web Fundamentals) at BYU-Idaho.
      I enjoy technology, coding, graphics design, and web development  as well as learning new skills
      I also enjoy helping others and exploring creative digital projects.</p>
