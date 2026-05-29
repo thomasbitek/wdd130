@@ -12,7 +12,7 @@
                 <li><a href="#Home">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>li>
+                <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="mailto:thomaswokz33@gmail.com">thomaswokoz33@gmail.com</a></li>
             </ul>
         </nav>
