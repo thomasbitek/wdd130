@@ -216,24 +216,24 @@ footer nav ul li a:hover {
     color: var(--accent-color);
 }
 
-footer nav.socialmedia {
+footer nav.social-media {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
 }
 
-footer nav.socialmedia a {
+footer nav.social-media a {
     display: inline-block;
     transition: transform 0.3s ease;
     text-decoration: none;
 }
 
-footer nav.socialmedia a:hover {
+footer nav.social-media a:hover {
     transform: scale(1.2);
 }
 
-footer nav.socialmedia a img {
+footer nav.social-media a img {
     width: 30px;
     height: 30px;
     filter: brightness(1);
