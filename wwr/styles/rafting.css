@@ -29,6 +29,18 @@ header {
     align-items: center;
 }
 
+.map-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.map-section {
+    width: 400px;
+    height: 300px;
+    border: 0;
+}
+
 nav, p, section, article{
     margin: 16px;
     padding: 8px;
@@ -66,16 +78,27 @@ nav ul.navigation li {
     border-radius: 8px;
 }
 
+team-profiles {
+    display: flex;
+    gap: 10px; /* space between photos */
+}
+
+team-profiles img {
+    width: 200px;
+    height: auto;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    margin-top: 20px;
 }
 
 .social-media {
     display: flex;
-    gap: 16px;
+    gap: 10px;
 }
 
 .social-media a {
