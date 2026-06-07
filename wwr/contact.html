@@ -22,147 +22,94 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="hero-section">
             <div class="hero">
                 <img src="images/hero.jpg" alt="Contact Us Banner">
             </div>
             <h1>Contact Us | Bitmoi WhiteWater Rafting</h1>
-            <p>We'd love to hear from you! Whether you have questions about our rafting trips, want to book an adventure, 
-                or simply want to get in touch, please use the contact form below or reach out to us directly using the 
-                contact information provided.</p>
         </section>
 
-        <section id="contact-form-section">
-            <h2>Get In Touch</h2>
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Full Name *</label>
-                    <input type="BITMOI WHITEWATER RAFTING" id="name" name="name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email Address</Address> *</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">phone</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-
-                <div class="form-group">
-                    <label for="subject">Subject *</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="inquiry-type">Type of Inquiry</label>
-                    <select id="inquiry-type" name="inquiry-type">
-                        <option value="">Select an option</option>
-                        <option value="booking">Trip Booking</option>
-                        <option value="general">General Inquiry</option>
-                        <option value="feedback">Feedback</option>
-                        <option value="group">Group Event</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
+        <section class="company-info">
+            <h2>Bitmoi WhiteWater Rafting</h2>
+            <p>Nile Avenue, Gulu City, Uganda</p>
+            <p><a href="tel:+256763652967">+256 763 652 967</a></p>
+            <p><a href="mailto:info@bitmoiwhitewater.com">info@bitmoiwhitewater.com</a></p>
         </section>
 
-        <section id="contact-info-section">
-            <h2>Contact Information</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <h3>Phone</h3>
-                    <p><a href="tel:+256763652967">(+256) 763 652 967</a></p>
-                </div>
+        <section id="contact-form-section" class="contact-container">
+            <div class="map-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7494247573944!2d32.28333!3d2.78333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177eb6c7c3f3f3f3%3A0x0!2sBitmoi%20WhiteWater%20Rafting%20Gulu!5e0!3m2!1sen!2sug!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-section">
+                <h2>Get In Touch</h2>
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    </div>
 
-                <div class="contact-item">
-                    <h3>Email</h3>
-                    <p><a href="mailto:info@bitmoiwhitewater.com">info@bitmoiwhitewater.com</a></p>
-                </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                    </div>
 
-                <div class="contact-item">
-                    <h3>Location</h3>
-                    <p>Gulu, Uganda</p>
-                </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Message Purpose</legend>
+                            <div class="radio-group">
+                                <div>
+                                    <input type="radio" id="general" name="purpose" value="general" required>
+                                    <label for="general">General Inquiry</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                                    <label for="reservation">Reservation Question</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
+                                    <label for="suggestion">Website Suggestion</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
 
-                <div class="contact-item">
-                    <h3>Business Hours</h3>
-                    <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p>Saturday - Sunday: 9:00 AM - 5:00 PM</p>
-                </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type here" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Get in Touch!</button>
+                </form>
             </div>
         </section>
 
-        <section id="faq-section">
-            <h2>Frequently Asked Questions</h2>
-            <div class="faq">
-                <div class="faq-item">
-                    <h3>How do I book a rafting trip?</h3>
-                    <p>You can book a rafting trip by filling out the contact form above or calling us directly at 
-                        (+256) 763 652 967. Our team will assist you in selecting the perfect trip for your skill level and preferences.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>What is the minimum age for rafting?</h3>
-                    <p>The minimum age for rafting varies depending on the trip difficulty level. Most of our beginner trips 
-                        are suitable for ages 8 and above. Please contact us for specific age requirements for each trip.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>What should I bring?</h3>
-                    <p>We provide life jackets, helmets, and paddles. We recommend bringing a swimsuit, towel, water shoes, 
-                        sunscreen, and a change of clothes. Avoid bringing valuable items as they may get wet.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Do you offer group discounts?</h3>
-                    <p>Yes! We offer special rates for groups of 10 or more people. Please contact us for more information 
-                        about group packages and pricing.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>What if the weather is bad?</h3>
-                    <p>We prioritize safety above all else. In case of severe weather, we will either reschedule your trip 
-                        or offer a full refund. Please check our cancellation policy for more details.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Are there any restrictions?</h3>
-                    <p>Participants should be in good health and able to swim. Pregnant women and people with certain medical 
-                        conditions should consult with a physician before participating. Please contact us if you have specific concerns.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="social-media-section">
-            <h2>Follow Us On Social Media</h2>
-            <p>Stay updated with our latest adventures, promotions, and news!</p>
-            <div class="social-links">
-                <a href="https://www.facebook.com/bitmoiwhitewater" target="_blank" class="social-btn">Facebook</a>
-                <a href="https://www.twitter.com/bitmoiwhitewater" target="_blank" class="social-btn">Twitter</a>
-                <a href="https://www.instagram.com/bitmoi_whitewater_rafting" target="_blank" class="social-btn">Instagram</a>
+        <section class="why-choose-us">
+            <h2>We Are Here to Serve You</h2>
+            <div class="team-profiles">
+                <article class="team-member">
+                    <img src="images/employee1.jpg" alt="Team Member">
+                    <h3>Employee Profile</h3>
+                </article>
+                <article class="team-member">
+                    <img src="images/employee2.jpg" alt="Team Member">
+                    <h3>Employee Profile</h3>
+                </article>
+                <article class="team-member">
+                    <img src="images/employee3.jpg" alt="Team Member">
+                    <h3>Employee Profile</h3>
+                </article>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy;2026 Bitmoi WhiteWater Rafting | Tel: +256 763 652 967 | WOKORACH THOMAS | All rights reserved.</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
         <nav class="socialmedia">
             <a href="https://facebook.com/bitmoiwhitewater" target="_blank">
                 <img src="images/facebook.svg" alt="Facebook Icon">
