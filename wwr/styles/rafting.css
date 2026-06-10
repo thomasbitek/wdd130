@@ -54,9 +54,12 @@ nav, p, section, article{
     padding: 8px;
 }
 
+nav {
+justify-self: center;
+}
 nav ul {
     display: flex;
-    list-style: none;
+    list-style: 20px;
 }
 
 nav ul li {
