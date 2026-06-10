@@ -1,7 +1,7 @@
 :root {
 --primary-color: #0077b6; /*forest green*/
 --secondary-color: #00b4d8; /*warm sand*/
---accent1-color: #90e0ef; /*dark slate blue*/
+--accent1-color: #023e8a; /*dark slate blue*/
 --accent2-color: #caf0f8; /*light golden yellow*/
 --heading-font: "Times New Roman", "Georgia", serif;
 --body-font: "Arial", "Helvetica", sans-serif;
@@ -19,7 +19,11 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
-h1, h2 {
+h1 {
+    color: #023e8a;
+    background-color: #90e0ef;
+}
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -38,6 +42,10 @@ header {
 .map-section {
     width: 400px;
     height: 300px;
+    border: 0;
+}
+
+.map {
     border: 0;
 }
 
@@ -117,6 +125,11 @@ footer {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
 }
 h1 {
    position: absolute; 
