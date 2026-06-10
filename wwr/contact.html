@@ -23,7 +23,8 @@
     </header>
     <main>
         <h1>Contact Us | Bitmoi WhiteWater Rafting</h1>
-
+        <div class="trip-links">
+        </div>
         <section class="company-info">
             <h2>Bitmoi WhiteWater Rafting</h2>
             <p>Nile Avenue, Gulu City, Uganda</p>
@@ -33,7 +34,10 @@
 
         <section id="contact-form-section" class="contact-container">
             <div class="map-section">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d255144.82244419627!2d31.906669502988702!3d2.2878921703071344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d2.342435926722242!2d31.962974435247375!5e0!3m2!1sen!2sug!4v1780862391879!5m2!1sen!2sug" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d255144.82244419627!2d31.906669502988702!3d2.2878921703071344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d2.342435926722242!2d31.962974435247375!5e0!3m2!1sen!2sug!4v1780862391879!5m2!1sen!2sug" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    class="map">
+                </iframe>
 
                 <div class="form-section">
                    <h2>Get In Touch</h2>
@@ -53,6 +57,7 @@
                             <legend>Message Purpose</legend>
                             <div class="radio-group">
                                 <div>
+                                    <p>Purpose of Message</p>
                                     <input type="radio" id="general" name="purpose" value="general" required>
                                     <label for="general">General Inquiry</label>
                                 </div>
@@ -61,8 +66,8 @@
                                     <label for="reservation">Reservation Question</label>
                                 </div>
                                 <div>
-                                    <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
-                                    <label for="suggestion">Website Suggestion</label>
+                                    <input type="radio" id="website" name="purpose" value="suggestion" required>
+                                    <label for="website">Website Suggestion</label>
                                 </div>
                             </div>
                         </fieldset>
