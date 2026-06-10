@@ -33,6 +33,10 @@ header {
     align-items: center;
 }
 
+nav {
+    justify-self: end;
+}
+
 .map-section {
     display: flex;
     align-items: center;
@@ -49,21 +53,24 @@ header {
     border: 0;
 }
 
-p, section, article{
+nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
 
 nav {
-justify-self: center;
+    justify-self: end;
 }
+
 nav ul {
     display: flex;
-    list-style: 20px;
+    list-style: none;
+    gap: 20px;
 }
 
 nav ul li {
     flex: 1 1 auto;
+    margin: 0;
 }
 
 nav ul.navigation {
