@@ -1,41 +1,160 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOKORACH THOMAS | WDD 130</title>
-    <meta name="description" content="Welcome to my website! This is a simple HTML page that serves as an introduction to my work in the WDD 130 course. Here, you can find information about my projects, skills, and contact details. Feel free to explore and learn more about me!">
-    <meta name="author" content="Wokorach Thomas AKA Thomas Bitek Bitmoi">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="Bitmoi WhiteWater Rafting - Experience thrilling white water adventures, family rafting trips, and unforgettable river expeditions in Uganda.">
+    <meta name="author" content="Wokorach Thomas">
+    <title>Home | Bitmoi WhiteWater Rafting</title>
+
+```
+<link rel="stylesheet" href="styles/rafting.css">
+```
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>WOKORACH THOMAS | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Profile Image" style="width:200px;">
-        <p> My name is Wokorach Thomas AKA Thomas Bitek Bitmoi and I'm from Gulu, Uganda 
-            I am studying Web Development (specifically Web Fundamentals) at BYU-Idaho.
-            I enjoy technology, coding, graphics design, and web development  as well as learning new skills
-            I also enjoy helping others and exploring creative digital projects.</p>
-    </main>
-    <footer>
-        <p>©2026 ⌚ Wokorach Thomas ⌚ Gulu, Uganda.   All rights reserved®.</p>
-        <nav class="social-media">
-            <ul>
-                <li><a href="https://www.facebook.com/bitmoi whitewater rafting" target="_blank">Facebook</a></li>
-                <li><a href="https://www.twitter.com/bitmoi whitewater rafting" target="_blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com/bitmoi_whitewater_rafting" target="_blank">Instagram</a></li>
-            </ul>
-        </nav>
-    </footer>
+
+```
+<header>
+    <img src="images/logo.jpg" alt="Bitmoi WhiteWater Rafting Logo" class="logo">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+        <img src="images/hero.jpg" alt="White Water Rafting Adventure">
+
+        <h1>Bitmoi WhiteWater Rafting</h1>
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter">
+        <h2>Join Our Adventure Newsletter</h2>
+
+        <p>
+            Subscribe to receive trip updates, discounts,
+            safety tips, and exciting adventure news.
+        </p>
+
+        <form method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- CALL TO ACTION -->
+
+    <section class="cta">
+        <h2>Adventure Awaits You!</h2>
+
+        <p>
+            Whether you are looking for a relaxing family float
+            or an adrenaline-filled whitewater challenge,
+            Bitmoi WhiteWater Rafting has the perfect adventure.
+        </p>
+
+        <a href="trips.html" class="booking-btn">
+            View Available Trips
+        </a>
+    </section>
+
+    <!-- GRID CONTENT SECTION -->
+
+    <section class="home-grid">
+
+        <div class="grid-item">
+            <img src="images/rafting1.png" alt="Family rafting trip">
+
+            <h3>Our Purpose</h3>
+
+            <p>
+                At Bitmoi WhiteWater Rafting, our mission is to
+                provide safe, memorable, and exciting rafting
+                experiences while promoting environmental
+                stewardship and respect for nature.
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="images/rafting2.png" alt="Rafting adventure">
+
+            <h3>What We Offer</h3>
+
+            <p>
+                We offer beginner, intermediate, and advanced
+                rafting trips led by experienced guides.
+                From short family adventures to multi-day
+                expeditions, there is something for everyone.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- EXTRA CONTENT SECTION -->
+
+    <section>
+        <h2>Why Choose Bitmoi WhiteWater Rafting?</h2>
+
+        <p>
+            Our experienced guides, modern equipment,
+            commitment to safety, and passion for adventure
+            make every rafting experience unforgettable.
+            We welcome individuals, families, schools,
+            corporate groups, and adventure enthusiasts.
+        </p>
+
+        <p>
+            Join us and discover the beauty of Uganda's rivers
+            while creating memories that will last a lifetime.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        &copy;2026 Bitmoi WhiteWater Rafting |
+        WOKORACH THOMAS |
+        All rights reserved.
+    </p>
+
+    <nav class="social-media">
+        <a href="https://facebook.com/bitmoiwhitewater">
+            <img src="images/facebook.svg" alt="Facebook Icon">
+        </a>
+
+        <a href="https://twitter.com/bitmoiwhitewater">
+            <img src="images/twitter.svg" alt="Twitter Icon">
+        </a>
+
+        <a href="https://instagram.com/bitmoi_whitewater_rafting">
+            <img src="images/instagram.svg" alt="Instagram Icon">
+        </a>
+    </nav>
+</footer>
+```
+
 </body>
+
 </html>
