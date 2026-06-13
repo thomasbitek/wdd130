@@ -220,24 +220,24 @@ footer nav ul li a:hover {
     color: var(--accent-color);
 }
 
-footer nav.social-media {
+footer nav.socialmedia {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
 }
 
-footer nav.social-media a {
+footer nav.socialmedia a {
     display: inline-block;
     transition: transform 0.3s ease;
     text-decoration: none;
 }
 
-footer nav.social-media a:hover {
+footer nav.socialmedia a:hover {
     transform: scale(1.2);
 }
 
-footer nav.social-media a img {
+footer nav.socialmedia a img {
     width: 30px;
     height: 30px;
     filter: brightness(1);
