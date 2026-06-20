@@ -159,6 +159,37 @@ section p {
     color: var(--text-color);
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-areas: 
+    "hero hero"
+    "newsletter featured"
+    "testimonials testimonials";
+    gap: 20px;
+}
+
+.hero{
+    grid-area: hero;
+}
+
+.newsletter{
+    grid-area: newsletter;
+}
+
+.featured-trips{
+    grid-area: featured;
+}
+
+.testimonials{
+    grid-area: testimonials;
+}
 /* ============================================
    Figure & Gallery Styles
    ============================================ */
@@ -305,6 +336,12 @@ footer nav.socialmedia a img {
     }
 }
 
+@media(max-width:768px){
+    .home-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ============================================
    Utility & Additional Styles
    ============================================ */
@@ -331,4 +368,92 @@ button {
 
 button:hover {
     background-color: var(--accent-color);
+}
+
+
+/* ===============================================
+     Trips Page Design
+   ===============================================   */
+
+/* Trips Grid Layout */
+
+#trips-grid-section {
+    padding: 20px;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.trip-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.trip-card h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.trip-details {
+    margin-bottom: 15px;
+}
+
+.trip-description {
+    margin-bottom: 15px;
+}
+
+.trip-highlights ul {
+    padding-left: 20px;
+}
+
+.difficulty-beginner {
+    color: green;
+    font-weight: bold;
+}
+
+.difficulty-intermediate {
+    color: orange;
+    font-weight: bold;
+}
+
+.difficulty-advanced {
+    color: red;
+    font-weight: bold;
+}
+
+.booking-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+    .trip-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
